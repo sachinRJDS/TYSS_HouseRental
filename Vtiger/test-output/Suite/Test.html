@@ -1,0 +1,312 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/5</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 10 15:38:06 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>48 seconds (48682 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest()'><b>registerHomeTest</b><br>Test class: homerental_automationTest.RegisterHomeInPOMTest</td>
+<td><div><pre>java.lang.AssertionError: null
+	at homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest(RegisterHomeInPOMTest.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1990829377", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1990829377'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest(RegisterHomeInPOMTest.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+</pre></div></td>
+<td>0</td>
+<td>homerental_automationTest.RegisterHomeInPOMTest@35d019a3</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='homerental_automationTest.ComplaintInPOMTest.complaintTest()'><b>complaintTest</b><br>Test class: homerental_automationTest.ComplaintInPOMTest<br/>
+<a href="#Output-938875443" onClick='toggleBox("Output-938875443", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-938875443" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-938875443">
+complaint sent successfully<br/>
+user raised complaint is present in admin complaint list<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>homerental_automationTest.ComplaintInPOMTest@18078bef</td></tr>
+<tr>
+<td title='homerental_automationTest.RegisterUserToApplicationInPOMTest.registerUserTest()'><b>registerUserTest</b><br>Test class: homerental_automationTest.RegisterUserToApplicationInPOMTest<br/>
+<a href="#Output-1228992570" onClick='toggleBox("Output-1228992570", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1228992570" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1228992570">
+user id is verified and pass<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>homerental_automationTest.RegisterUserToApplicationInPOMTest@f6efaab</td></tr>
+<tr>
+<td title='homerental_automationTest.UpdateHomeInPOMTest.updateHomeTest()'><b>updateHomeTest</b><br>Test class: homerental_automationTest.UpdateHomeInPOMTest<br/>
+<a href="#Output-1818266815" onClick='toggleBox("Output-1818266815", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1818266815" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1818266815">
+data is updated in details page and pass<br/>
+data is updated in searched page and pass<br/>
+data is updated in admin apartment list page and pass<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>homerental_automationTest.UpdateHomeInPOMTest@689604d9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest()'><b>registerHomeTest</b><br>Test class: homerental_automationTest.RegisterHomeInPOMTest</td>
+<td><div><pre>java.lang.AssertionError: null
+	at homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest(RegisterHomeInPOMTest.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1547226728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1547226728'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest(RegisterHomeInPOMTest.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+</pre></div></td>
+<td>0</td>
+<td>homerental_automationTest.RegisterHomeInPOMTest@35d019a3</td></tr>
+<tr>
+<td title='homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest()'><b>registerHomeTest</b><br>Test class: homerental_automationTest.RegisterHomeInPOMTest</td>
+<td><div><pre>java.lang.AssertionError: null
+	at homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest(RegisterHomeInPOMTest.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace799894311", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace799894311'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest(RegisterHomeInPOMTest.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+</pre></div></td>
+<td>0</td>
+<td>homerental_automationTest.RegisterHomeInPOMTest@35d019a3</td></tr>
+<tr>
+<td title='homerental_automationTest.UpdateHomeInPOMTest.updateHomeTest()'><b>updateHomeTest</b><br>Test class: homerental_automationTest.UpdateHomeInPOMTest</td>
+<td><div><pre>java.lang.AssertionError: data is not updated in details page and fail expected [Accommodation: No water bill33] but found [Accommodation: No water bill33No water bill33]
+	at com.realestate.houseRentalObjectRepository.UserApartmentListPage.verifyUpdatedData(UserApartmentListPage.java:79)
+	at homerental_automationTest.UpdateHomeInPOMTest.updateHomeTest(UpdateHomeInPOMTest.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2045827691", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2045827691'><pre>java.lang.AssertionError: data is not updated in details page and fail expected [Accommodation: No water bill33] but found [Accommodation: No water bill33No water bill33]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at com.realestate.houseRentalObjectRepository.UserApartmentListPage.verifyUpdatedData(UserApartmentListPage.java:79)
+	at homerental_automationTest.UpdateHomeInPOMTest.updateHomeTest(UpdateHomeInPOMTest.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+</pre></div></td>
+<td>4</td>
+<td>homerental_automationTest.UpdateHomeInPOMTest@689604d9</td></tr>
+<tr>
+<td title='homerental_automationTest.UpdateHomeInPOMTest.updateHomeTest()'><b>updateHomeTest</b><br>Test class: homerental_automationTest.UpdateHomeInPOMTest</td>
+<td><div><pre>java.lang.AssertionError: data is not updated in details page and fail expected [Accommodation: No water bill9] but found [Accommodation: No water bill9No water bill9]
+	at com.realestate.houseRentalObjectRepository.UserApartmentListPage.verifyUpdatedData(UserApartmentListPage.java:79)
+	at homerental_automationTest.UpdateHomeInPOMTest.updateHomeTest(UpdateHomeInPOMTest.java:83)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 15 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1177025257", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1177025257'><pre>java.lang.AssertionError: data is not updated in details page and fail expected [Accommodation: No water bill9] but found [Accommodation: No water bill9No water bill9]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at com.realestate.houseRentalObjectRepository.UserApartmentListPage.verifyUpdatedData(UserApartmentListPage.java:79)
+	at homerental_automationTest.UpdateHomeInPOMTest.updateHomeTest(UpdateHomeInPOMTest.java:83)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+</pre></div></td>
+<td>16</td>
+<td>homerental_automationTest.UpdateHomeInPOMTest@689604d9</td></tr>
+<tr>
+<td title='homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest()'><b>registerHomeTest</b><br>Test class: homerental_automationTest.RegisterHomeInPOMTest</td>
+<td><div><pre>java.lang.AssertionError: null
+	at homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest(RegisterHomeInPOMTest.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace348271693", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace348271693'><pre>java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at homerental_automationTest.RegisterHomeInPOMTest.registerHomeTest(RegisterHomeInPOMTest.java:34)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+</pre></div></td>
+<td>0</td>
+<td>homerental_automationTest.RegisterHomeInPOMTest@35d019a3</td></tr>
+</table><p>
+</body>
+</html>

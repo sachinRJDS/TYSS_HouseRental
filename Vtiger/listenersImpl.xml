@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+<listeners>
+<listener class-name="com.houserental.genericutility.ListenersImplimentation"/>
+</listeners>
+  <test thread-count="4" name="Test">
+    <classes>
+      <class name="homerental_automationTest.RegisterUserToApplicationInPOMTest"/>
+      <class name="homerental_automationTest.RegisterHomeInPOMTest"/>
+      <class name="homerental_automationTest.UpdateHomeInPOMTest"/>
+      <class name="homerental_automationTest.ComplaintInPOMTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

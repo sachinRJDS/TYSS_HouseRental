@@ -1,0 +1,6 @@
+userpropertypath ./src/test/resources/data/user.property
+adminpropertypath ./src/test/resources/data/admin.property
+jsondata ./src/test/resources/data/jsondata.json
+registerexcelpath ./src/test/resources/data/homeCredentatial.xlsx
+databasepath ./src/test/resources/data/databaseServerconfig.properties
+imagepath ./src/test/resources/data/picture.png
