@@ -91,7 +91,9 @@ public class ComplaintInPOMTest extends BaseClass{
 		aLib.getComplaintListTab().click();
 		
 		/*verify the user raised complaint*/
-		aComPage.verifyUserRaisedComplaint(driver, homeNo, complaint, user);				
+		aComPage.verifyUserRaisedComplaint(driver, homeNo, complaint, user);
+		
+		//completed
 	}
 
 }
