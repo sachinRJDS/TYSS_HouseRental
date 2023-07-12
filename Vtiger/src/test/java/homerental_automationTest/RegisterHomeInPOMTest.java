@@ -21,6 +21,8 @@ import com.realestate.houseRentalObjectRepository.SearchPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class RegisterHomeInPOMTest extends BaseClass {
+	//welcome to houserental application
+	
 	@Test(groups = {"smoketest"},retryAnalyzer = com.houserental.genericutility.RetryImplementation.class)
 	public  void registerHomeTest() throws Throwable {
 		RegisterRoomPage rLib=new RegisterRoomPage(driver);

@@ -25,6 +25,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class UpdateHomeInPOMTest extends BaseClass{
 	@Test(groups = {"regressiontest","smoketest"},retryAnalyzer = com.houserental.genericutility.RetryImplementation.class)
 	public void updateHomeTest() throws Throwable {
+		
+		/*welcome*/
+		
 		LoginPage lLib=new LoginPage(driver);
 		HomePage hLib=new HomePage(driver);
 		RegisterRoomPage rLib=new RegisterRoomPage(driver);
@@ -103,7 +106,9 @@ public class UpdateHomeInPOMTest extends BaseClass{
 		
 		/*verify updated data in details/update page*/
 		adminLib.getDetailsUpdateTab(driver);
-		aaLib.verifyUpdatedData(driver, accommodation, name);		
+		aaLib.verifyUpdatedData(driver, accommodation, name);	
+		
+		/*test script is completed*/
 	}
 /*	@Test
 	public void newTest() {
