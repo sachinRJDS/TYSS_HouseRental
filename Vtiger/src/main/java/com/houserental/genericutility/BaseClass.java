@@ -46,6 +46,7 @@ public class BaseClass {
 	}
 	@BeforeClass(groups = {"regressiontest","smoketest"})
 	public void launchTheBrowser() throws IOException {
+		/* welcome */
 		WebDriverManager.chromedriver().setup();
 		WebDriverManager.edgedriver().setup();
 		pathOfTheFile = fLib.getPropertyFilePath("userpropertypath");
