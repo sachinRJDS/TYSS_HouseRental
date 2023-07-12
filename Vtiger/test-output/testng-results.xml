@@ -1,65 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[connected to database]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[complaint sent successfully]]>
+    </line>
+    <line>
+      <![CDATA[user raised complaint is present in admin complaint list]]>
+    </line>
+    <line>
+      <![CDATA[logout successfully]]>
+    </line>
+    <line>
+      <![CDATA[browser is closed]]>
+    </line>
+    <line>
+      <![CDATA[Database connection is closed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-07-11T12:46:06 IST" name="Default suite" finished-at="2023-07-11T12:46:07 IST" duration-ms="1369">
+  <suite started-at="2023-07-12T18:03:26 IST" name="Default suite" finished-at="2023-07-12T18:03:38 IST" duration-ms="12351">
     <groups>
+      <group name="smoketest">
+        <method signature="ComplaintInPOMTest.complaintTest()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@7d8995e]" name="complaintTest" class="homerental_automationTest.ComplaintInPOMTest"/>
+      </group> <!-- smoketest -->
     </groups>
-    <test started-at="2023-07-11T12:46:06 IST" name="Default test" finished-at="2023-07-11T12:46:07 IST" duration-ms="1369">
-      <class name="com.practice.DataProvider1">
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProvider1@4d9e68d0]" started-at="2023-07-11T12:46:07 IST" name="test" data-provider="object" finished-at="2023-07-11T12:46:07 IST" duration-ms="21" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TC_ID]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[jack1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mobile_No]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[jack2@gmail.com]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-07-12T18:03:26 IST" name="Default test" finished-at="2023-07-12T18:03:38 IST" duration-ms="12351">
+      <class name="homerental_automationTest.ComplaintInPOMTest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@7d8995e]" started-at="2023-07-12T18:03:26 IST" name="connectToDB" finished-at="2023-07-12T18:03:26 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[connected to database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- connectToDB -->
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@7d8995e]" started-at="2023-07-12T18:03:26 IST" name="launchTheBrowser" finished-at="2023-07-12T18:03:31 IST" duration-ms="5201" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@7d8995e]" started-at="2023-07-12T18:03:31 IST" name="loginToApplication" finished-at="2023-07-12T18:03:32 IST" duration-ms="630" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method signature="test(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProvider1@4d9e68d0]" started-at="2023-07-11T12:46:07 IST" name="test" data-provider="object" finished-at="2023-07-11T12:46:07 IST" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[TC_ID]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[jack1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mobile_No]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[jack2@gmail.com]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="complaintTest()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@7d8995e]" started-at="2023-07-12T18:03:32 IST" name="complaintTest" finished-at="2023-07-12T18:03:38 IST" duration-ms="5881" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[complaint sent successfully]]>
+            </line>
+            <line>
+              <![CDATA[user raised complaint is present in admin complaint list]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.practice.DataProvider1 -->
+        </test-method> <!-- complaintTest -->
+        <test-method is-config="true" signature="logoutFromTheApplication()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@7d8995e]" started-at="2023-07-12T18:03:38 IST" name="logoutFromTheApplication" finished-at="2023-07-12T18:03:38 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutFromTheApplication -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@7d8995e]" started-at="2023-07-12T18:03:38 IST" name="closeTheBrowser" finished-at="2023-07-12T18:03:38 IST" duration-ms="397" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@7d8995e]" started-at="2023-07-12T18:03:38 IST" name="closeDB" finished-at="2023-07-12T18:03:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Database connection is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- homerental_automationTest.ComplaintInPOMTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

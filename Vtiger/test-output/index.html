@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\mkits\AppData\Local\Temp\testng-eclipse-382570589\testng-customsuite.xml</span>
+                    <span>C:\Users\mkits\AppData\Local\Temp\testng-eclipse-2012361268\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -61,7 +61,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Default_suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.practice.DataProvider1" class="method navigator-link" hash-for-method="test(TC_ID, jack1, Mobile_No, jack2@gmail.com)">test(TC_ID, jack1, Mobile_No, jack2@gmail.com)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.practice.DataProvider1" class="method navigator-link" hash-for-method="test(TC_ID, jack1, Mobile_No, jack2@gmail.com)">test(TC_ID, jack1, Mobile_No, jack2@gmail.com)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="homerental_automationTest.ComplaintInPOMTest" class="method navigator-link" hash-for-method="complaintTest">complaintTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -127,23 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.practice.DataProvider1</span>
+              <span class="class-name">homerental_automationTest.ComplaintInPOMTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test(TC_ID, jack1, Mobile_No, jack2@gmail.com)">
-                  </a> <!-- test(TC_ID, jack1, Mobile_No, jack2@gmail.com) -->
-                  <span class="method-name">test</span>
-                  <span class="parameters">(TC_ID, jack1, Mobile_No, jack2@gmail.com)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test(TC_ID, jack1, Mobile_No, jack2@gmail.com)">
-                  </a> <!-- test(TC_ID, jack1, Mobile_No, jack2@gmail.com) -->
-                  <span class="method-name">test</span>
-                  <span class="parameters">(TC_ID, jack1, Mobile_No, jack2@gmail.com)</span>
+                  <a name="complaintTest">
+                  </a> <!-- complaintTest -->
+                  <span class="method-name">complaintTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -151,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\mkits\AppData\Local\Temp\testng-eclipse-382570589\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\mkits\AppData\Local\Temp\testng-eclipse-2012361268\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -160,7 +146,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.practice.DataProvider1&quot;/&gt;
+      &lt;class name=&quot;homerental_automationTest.ComplaintInPOMTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -184,6 +170,14 @@
             <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoketest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">complaintTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Default_suite" class="panel">
@@ -200,20 +194,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'com.practice.DataProvider1')
-data.setCell(0, 3, 21);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test')
-data.setCell(1, 2, 'com.practice.DataProvider1')
-data.setCell(1, 3, 7);
+data.setCell(0, 1, 'complaintTest')
+data.setCell(0, 2, 'homerental_automationTest.ComplaintInPOMTest')
+data.setCell(0, 3, 5881);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 ms</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -224,6 +214,13 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">complaintTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">complaint sent successfully</span>
+                <span class="reporter-method-output">user raised complaint is present in admin complaint list</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
@@ -239,15 +236,35 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.practice.DataProvider1</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">test(TC_ID, jack1, Mobile_No, jack2@gmail.com)</span>
+              <div class="chronological-class-name">homerental_automationTest.ComplaintInPOMTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">connectToDB</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">launchTheBrowser</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">loginToApplication</span>
+                <span class="method-start">5295 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test(TC_ID, jack1, Mobile_No, jack2@gmail.com)</span>
-                <span class="method-start">32 ms</span>
+                <span class="method-name">complaintTest</span>
+                <span class="method-start">5928 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">logoutFromTheApplication</span>
+                <span class="method-start">11814 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeTheBrowser</span>
+                <span class="method-start">11976 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeDB</span>
+                <span class="method-start">12426 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
