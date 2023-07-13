@@ -50,10 +50,10 @@ public class BaseClass {
 		WebDriverManager.chromedriver().setup();
 		WebDriverManager.edgedriver().setup();
 		pathOfTheFile = fLib.getPropertyFilePath("userpropertypath");
-	  // String browser = fLib.getPropertyData(pathOfTheFile, "browser");
-		//String URL = fLib.getPropertyData(pathOfTheFile, "url");
-		String browser = System.getProperty("browser");
-		String URL = System.getProperty("url");
+	    String browser = fLib.getPropertyData(pathOfTheFile, "browser");
+	    String URL = fLib.getPropertyData(pathOfTheFile, "url");
+		//String browser = System.getProperty("browser");
+	//	String URL = System.getProperty("url");
 		switch(browser) {
 		case "chrome" :driver=new ChromeDriver();
 		break;

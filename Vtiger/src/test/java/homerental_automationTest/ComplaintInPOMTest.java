@@ -45,14 +45,15 @@ public class ComplaintInPOMTest extends BaseClass{
 		
 		/*read username*/
 		String user = hLib.getUserName(driver);
+		System.out.println(user);
 		
 		/*click on register tab*/
 		hLib.getRegisterTab().click();
 		
 		/*enter all the mandatory text field*/
 		String pathOfTheExcelFile = fLib.getPropertyFilePath("registerexcelpath");
-		String name = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "FullName")+randomNumber;
-		String emailId = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Email_ID")+randomNumber;
+		String name = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "FullName")+randomNumber+randomNumber;
+		String emailId = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Email_ID")+randomNumber+randomNumber;
 		String homeNo = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "House_No")+randomNumber;
 		String availableRooms = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Available_Rooms");
 		String country = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Country");

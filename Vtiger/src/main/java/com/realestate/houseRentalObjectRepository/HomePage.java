@@ -62,7 +62,7 @@ public class HomePage {
 	}
 	
 	public String getUserName(WebDriver driver) {
-		String user = driver.findElement(By.xpath("//a[text()='DarshanRaj ']")).getText();
+		String user = driver.findElement(By.xpath("//a[text()='Darshanraj ']")).getText();
 		char[] ch = user.toCharArray();
 		for(int i=0;i<user.length();i++) {
 			if(i==0&&ch[i]!=' '||ch[i-1]==' '&&ch[i]!=' ') {

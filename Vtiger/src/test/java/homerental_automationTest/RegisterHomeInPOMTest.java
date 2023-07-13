@@ -42,16 +42,16 @@ public class RegisterHomeInPOMTest extends BaseClass {
 		
 		/*enter all the mandatory text field*/
 		String pathOfTheExcelFile = fLib.getPropertyFilePath("registerexcelpath");
-		String name = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "FullName")+randomNumber;
-		String emailId = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Email_ID")+randomNumber;
-		String homeNo = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "House_No");
-		String availableRooms = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Available_Rooms");
-		String country = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Country");
-		String state = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "State");
-		String city = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "City");
-		String rent = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Rent ");
-		String deposit = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Deposit");
-		String Address = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_05", "Address");
+		String name = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "FullName")+randomNumber+randomNumber;
+		String emailId = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "Email_ID")+randomNumber+randomNumber;
+		String homeNo = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "House_No")+randomNumber;
+		String availableRooms = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "Available_Rooms");
+		String country = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "Country");
+		String state = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "State");
+		String city = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "City");
+		String rent = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "Rent ");
+		String deposit = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "Deposit");
+		String Address = eLib.getExcelDataBasedOnTestID(pathOfTheExcelFile, "Sheet1", "tc_02", "Address");
 		
 		rLib.getNameMobileEmail(name, mobileNo, emailId);
 		rLib.getHomeNOAvailableRoom(randomNumber, availableRooms);
