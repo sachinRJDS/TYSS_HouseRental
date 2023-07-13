@@ -8,13 +8,10 @@
       <![CDATA[Browser is launched]]>
     </line>
     <line>
-      <![CDATA[data is updated in details page and pass]]>
+      <![CDATA[complaint sent successfully]]>
     </line>
     <line>
-      <![CDATA[data is updated in searched page and pass]]>
-    </line>
-    <line>
-      <![CDATA[data is updated in admin apartment list page and pass]]>
+      <![CDATA[user raised complaint is present in admin complaint list]]>
     </line>
     <line>
       <![CDATA[logout successfully]]>
@@ -26,70 +23,64 @@
       <![CDATA[Database connection is closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-13T13:04:27 IST" name="Default suite" finished-at="2023-07-13T13:06:08 IST" duration-ms="101083">
+  <suite started-at="2023-07-13T22:26:04 IST" name="Default suite" finished-at="2023-07-13T22:26:16 IST" duration-ms="11929">
     <groups>
-      <group name="regressiontest">
-        <method signature="UpdateHomeInPOMTest.updateHomeTest()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" name="updateHomeTest" class="homerental_automationTest.UpdateHomeInPOMTest"/>
-      </group> <!-- regressiontest -->
       <group name="smoketest">
-        <method signature="UpdateHomeInPOMTest.updateHomeTest()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" name="updateHomeTest" class="homerental_automationTest.UpdateHomeInPOMTest"/>
+        <method signature="ComplaintInPOMTest.complaintTest()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@3c19aaa5]" name="complaintTest" class="homerental_automationTest.ComplaintInPOMTest"/>
       </group> <!-- smoketest -->
     </groups>
-    <test started-at="2023-07-13T13:04:27 IST" name="Default test" finished-at="2023-07-13T13:06:08 IST" duration-ms="101083">
-      <class name="homerental_automationTest.UpdateHomeInPOMTest">
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T13:04:27 IST" name="connectToDB" finished-at="2023-07-13T13:04:27 IST" duration-ms="28" status="PASS">
+    <test started-at="2023-07-13T22:26:04 IST" name="Default test" finished-at="2023-07-13T22:26:16 IST" duration-ms="11929">
+      <class name="homerental_automationTest.ComplaintInPOMTest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@3c19aaa5]" started-at="2023-07-13T22:26:04 IST" name="connectToDB" finished-at="2023-07-13T22:26:04 IST" duration-ms="24" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[connected to database]]>
             </line>
           </reporter-output>
         </test-method> <!-- connectToDB -->
-        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T13:04:27 IST" name="launchTheBrowser" finished-at="2023-07-13T13:05:56 IST" duration-ms="89364" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@3c19aaa5]" started-at="2023-07-13T22:26:04 IST" name="launchTheBrowser" finished-at="2023-07-13T22:26:09 IST" duration-ms="4782" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T13:05:56 IST" name="loginToApplication" finished-at="2023-07-13T13:05:57 IST" duration-ms="609" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@3c19aaa5]" started-at="2023-07-13T22:26:09 IST" name="loginToApplication" finished-at="2023-07-13T22:26:09 IST" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="updateHomeTest()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T13:05:57 IST" name="updateHomeTest" finished-at="2023-07-13T13:06:08 IST" duration-ms="10638" status="PASS">
+        <test-method signature="complaintTest()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@3c19aaa5]" started-at="2023-07-13T22:26:09 IST" name="complaintTest" finished-at="2023-07-13T22:26:15 IST" duration-ms="5650" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[data is updated in details page and pass]]>
+              <![CDATA[complaint sent successfully]]>
             </line>
             <line>
-              <![CDATA[data is updated in searched page and pass]]>
-            </line>
-            <line>
-              <![CDATA[data is updated in admin apartment list page and pass]]>
+              <![CDATA[user raised complaint is present in admin complaint list]]>
             </line>
           </reporter-output>
-        </test-method> <!-- updateHomeTest -->
-        <test-method is-config="true" signature="logoutFromTheApplication()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T13:06:08 IST" name="logoutFromTheApplication" finished-at="2023-07-13T13:06:08 IST" duration-ms="162" status="PASS">
+        </test-method> <!-- complaintTest -->
+        <test-method is-config="true" signature="logoutFromTheApplication()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@3c19aaa5]" started-at="2023-07-13T22:26:15 IST" name="logoutFromTheApplication" finished-at="2023-07-13T22:26:15 IST" duration-ms="142" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logoutFromTheApplication -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T13:06:08 IST" name="closeTheBrowser" finished-at="2023-07-13T13:06:08 IST" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@3c19aaa5]" started-at="2023-07-13T22:26:15 IST" name="closeTheBrowser" finished-at="2023-07-13T22:26:16 IST" duration-ms="382" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser is closed]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method is-config="true" signature="closeDB()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T13:06:08 IST" name="closeDB" finished-at="2023-07-13T13:06:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:homerental_automationTest.ComplaintInPOMTest@3c19aaa5]" started-at="2023-07-13T22:26:16 IST" name="closeDB" finished-at="2023-07-13T22:26:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Database connection is closed]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeDB -->
-      </class> <!-- homerental_automationTest.UpdateHomeInPOMTest -->
+      </class> <!-- homerental_automationTest.ComplaintInPOMTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

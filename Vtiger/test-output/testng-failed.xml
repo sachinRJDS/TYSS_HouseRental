@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="homerental_automationTest.RegisterHomeInPOMTest">
+      <class name="homerental_automationTest.ComplaintInPOMTest">
         <methods>
           <include name="closeTheBrowser"/>
           <include name="logoutFromTheApplication"/>
+          <include name="complaintTest"/>
           <include name="loginToApplication"/>
           <include name="launchTheBrowser"/>
           <include name="connectToDB"/>
           <include name="closeDB"/>
-          <include name="registerHomeTest"/>
         </methods>
-      </class> <!-- homerental_automationTest.RegisterHomeInPOMTest -->
+      </class> <!-- homerental_automationTest.ComplaintInPOMTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

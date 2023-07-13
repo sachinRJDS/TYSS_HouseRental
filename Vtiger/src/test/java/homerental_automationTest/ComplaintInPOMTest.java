@@ -38,7 +38,6 @@ public class ComplaintInPOMTest extends BaseClass{
 		AdminHomePage aLib=new AdminHomePage(driver);
 		AdminComplaintListPage aComPage=new AdminComplaintListPage();
 		
-		
 		/*get random number and phone number*/
 		String randomNumber = jLib.getRandomNumber()+"";
 		String mobileNo = jLib.getRandomPhoneNumber()+"";
