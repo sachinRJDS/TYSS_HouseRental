@@ -47,21 +47,24 @@ public class BaseClass {
 	@BeforeClass(groups = {"regressiontest","smoketest"})
 	public void launchTheBrowser() throws IOException {
 		/* welcome */
-		WebDriverManager.chromedriver().setup();
-		WebDriverManager.edgedriver().setup();
+		
 		pathOfTheFile = fLib.getPropertyFilePath("userpropertypath");
-	   // String browser = fLib.getPropertyData(pathOfTheFile, "browser");
-	   //String url = fLib.getPropertyData(pathOfTheFile, "url");
+	//   String browser = fLib.getPropertyData(pathOfTheFile, "browser");
+	  // String url = fLib.getPropertyData(pathOfTheFile, "url");
 		String browser = System.getProperty("browser");
 		String url = System.getProperty("url");
-		switch(browser) {
-		case "chrome" :driver=new ChromeDriver();
-		break;
-		case "firefox":driver=new FirefoxDriver();
-		break;
-		case "edge":driver=new EdgeDriver();
-		break;
-		default:driver=new ChromeDriver();		
+		if(browser.equals("chrome")) {
+			WebDriverManager.chromedriver().setup();
+			driver=new ChromeDriver();
+		}else if(browser.equals("edge")) {
+			WebDriverManager.edgedriver().setup();
+			driver=new EdgeDriver();
+		}else if(browser.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver=new FirefoxDriver();
+		}else {
+			WebDriverManager.chromedriver().setup();
+			driver=new ChromeDriver();
 		}
 		sdriver=driver;
 		driver.manage().window().maximize();
