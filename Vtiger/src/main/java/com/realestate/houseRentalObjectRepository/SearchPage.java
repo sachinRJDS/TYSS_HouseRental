@@ -41,9 +41,8 @@ public class SearchPage {
 		locationTextField.sendKeys(location);
 	}
 
-	public void getSearchBtn() throws Throwable {
-		WebDriverActionUtility wLib=new WebDriverActionUtility();
-		wLib.waitAndClick(searchBtn);
+	public WebElement getSearchBtn() throws Throwable {
+		return searchBtn;
 		
 	}
 	public void  getVerifyRegisteredRoom(WebDriver driver,String userName) {

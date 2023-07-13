@@ -26,7 +26,7 @@
       <![CDATA[Database connection is closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-13T12:02:47 IST" name="Default suite" finished-at="2023-07-13T12:04:28 IST" duration-ms="101364">
+  <suite started-at="2023-07-13T12:50:34 IST" name="Default suite" finished-at="2023-07-13T12:50:58 IST" duration-ms="23449">
     <groups>
       <group name="regressiontest">
         <method signature="UpdateHomeInPOMTest.updateHomeTest()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" name="updateHomeTest" class="homerental_automationTest.UpdateHomeInPOMTest"/>
@@ -35,27 +35,27 @@
         <method signature="UpdateHomeInPOMTest.updateHomeTest()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" name="updateHomeTest" class="homerental_automationTest.UpdateHomeInPOMTest"/>
       </group> <!-- smoketest -->
     </groups>
-    <test started-at="2023-07-13T12:02:47 IST" name="Default test" finished-at="2023-07-13T12:04:28 IST" duration-ms="101364">
+    <test started-at="2023-07-13T12:50:34 IST" name="Default test" finished-at="2023-07-13T12:50:58 IST" duration-ms="23449">
       <class name="homerental_automationTest.UpdateHomeInPOMTest">
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:02:47 IST" name="connectToDB" finished-at="2023-07-13T12:02:47 IST" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:50:34 IST" name="connectToDB" finished-at="2023-07-13T12:50:34 IST" duration-ms="27" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[connected to database]]>
             </line>
           </reporter-output>
         </test-method> <!-- connectToDB -->
-        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:02:47 IST" name="launchTheBrowser" finished-at="2023-07-13T12:04:19 IST" duration-ms="92506" status="PASS">
+        <test-method is-config="true" signature="launchTheBrowser()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:50:34 IST" name="launchTheBrowser" finished-at="2023-07-13T12:50:40 IST" duration-ms="5236" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser is launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- launchTheBrowser -->
-        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:04:19 IST" name="loginToApplication" finished-at="2023-07-13T12:04:20 IST" duration-ms="694" status="PASS">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:50:40 IST" name="loginToApplication" finished-at="2023-07-13T12:50:40 IST" duration-ms="647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginToApplication -->
-        <test-method signature="updateHomeTest()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:04:20 IST" name="updateHomeTest" finished-at="2023-07-13T12:04:28 IST" duration-ms="7561" status="PASS">
+        <test-method signature="updateHomeTest()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:50:40 IST" name="updateHomeTest" finished-at="2023-07-13T12:50:57 IST" duration-ms="16885" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[data is updated in details page and pass]]>
@@ -68,21 +68,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- updateHomeTest -->
-        <test-method is-config="true" signature="logoutFromTheApplication()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:04:28 IST" name="logoutFromTheApplication" finished-at="2023-07-13T12:04:28 IST" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="logoutFromTheApplication()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:50:57 IST" name="logoutFromTheApplication" finished-at="2023-07-13T12:50:57 IST" duration-ms="186" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- logoutFromTheApplication -->
-        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:04:28 IST" name="closeTheBrowser" finished-at="2023-07-13T12:04:28 IST" duration-ms="370" status="PASS">
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:50:57 IST" name="closeTheBrowser" finished-at="2023-07-13T12:50:58 IST" duration-ms="439" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[browser is closed]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeTheBrowser -->
-        <test-method is-config="true" signature="closeDB()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:04:28 IST" name="closeDB" finished-at="2023-07-13T12:04:28 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:homerental_automationTest.UpdateHomeInPOMTest@7d8995e]" started-at="2023-07-13T12:50:58 IST" name="closeDB" finished-at="2023-07-13T12:50:58 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Database connection is closed]]>

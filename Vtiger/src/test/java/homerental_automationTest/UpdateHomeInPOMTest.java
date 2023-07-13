@@ -94,8 +94,8 @@ public class UpdateHomeInPOMTest extends BaseClass{
 		/*verify updated data in searched page*/
 		sLib.getRoomTextField(availableRooms);
 		sLib.getLocationTextField(city);
-		sLib.getSearchBtn();
 		Thread.sleep(2000);
+		sLib.getSearchBtn().click();;
 		sLib.verifyUpdatedData(driver, accommodation, name);
 		
 		/*click on login tab*/

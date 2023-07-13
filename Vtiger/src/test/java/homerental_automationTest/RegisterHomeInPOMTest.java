@@ -79,8 +79,8 @@ public class RegisterHomeInPOMTest extends BaseClass {
 		lLib.getSearchBtn();
 		sLib.getRoomTextField(availableRooms);
 		sLib.getLocationTextField(city);
-		sLib.getSearchBtn();
 		Thread.sleep(2000);
+		sLib.getSearchBtn().click();;
 		sLib.getVerifyRegisteredRoom(driver, name);
 				
 		/*login as a admin*/
