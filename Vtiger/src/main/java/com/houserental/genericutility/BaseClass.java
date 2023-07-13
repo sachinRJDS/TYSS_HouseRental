@@ -51,8 +51,8 @@ public class BaseClass {
 		pathOfTheFile = fLib.getPropertyFilePath("userpropertypath");
 	//   String browser = fLib.getPropertyData(pathOfTheFile, "browser");
 	  // String url = fLib.getPropertyData(pathOfTheFile, "url");
-		String browser = System.getProperty("browser");
-		String url = System.getProperty("url");
+		String browser=System.getProperty("browser");
+		String url=System.getProperty("url");
 		if(browser.equals("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
