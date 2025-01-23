@@ -3,7 +3,7 @@ package com.houserental.genericutility;
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;
 
-public class RetryImplementation extends ListenersImplimentation implements IRetryAnalyzer {
+public class RetryImplementation implements IRetryAnalyzer {
 	int count=0;
 	int retryLimit=3;
 
